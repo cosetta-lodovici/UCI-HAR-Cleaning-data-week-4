@@ -1,6 +1,9 @@
 README that explains the analysis files of Week 4 cleaning data course assignment
 ==================================================================
 
+## work of the student: Cosetta Lodovici
+
+
 Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -49,7 +52,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## Notes: 
 
-###1. Merges the training and the test sets to create one data set.
+##1. Merges the training and the test sets to create one data set.
 Files considered necessary to create on data set are:
 
 - 'UCI HAR Dataset/test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
@@ -61,14 +64,14 @@ Files considered necessary to create on data set are:
 - 'UCI HAR Dataset/features.txt': List of all features.
 
 
-###2. Extracts only the measurements on the mean and standard deviation for each measurement.
+##2. Extracts only the measurements on the mean and standard deviation for each measurement.
 The set of variables estimated for this point are: 
 
 - mean(): Mean value
 - std(): Standard deviation
 
 
-###3. Uses descriptive activity names to name the activities in the data set
+##3. Uses descriptive activity names to name the activities in the data set
 'UCI HAR Dataset/activity_labels.txt' contains descriptive activity names that are:
 
 - 1 WALKING
@@ -77,4 +80,5 @@ The set of variables estimated for this point are:
 - 4 SITTING
 - 5 STANDING
 - 6 LAYING
+
 
